@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,18 @@
 		2800D64B2656AC3300B807D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2800D6492656AC3300B807D2 /* Main.storyboard */; };
 		2800D64D2656AC3400B807D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2800D64C2656AC3400B807D2 /* Assets.xcassets */; };
 		2800D6502656AC3400B807D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2800D64E2656AC3400B807D2 /* LaunchScreen.storyboard */; };
+		2800D6682656B98300B807D2 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D6672656B98300B807D2 /* CommonUtils.swift */; };
+		2800D66B2656BA5700B807D2 /* FootballMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D66A2656BA5700B807D2 /* FootballMatch.swift */; };
+		2800D66E2656BAE900B807D2 /* FootballMatchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D66D2656BAE900B807D2 /* FootballMatchApi.swift */; };
+		2800D6732656BC0B00B807D2 /* DiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D6722656BC0A00B807D2 /* DiConfig.swift */; };
+		2800D6762656BFFB00B807D2 /* FootballMatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D6752656BFFB00B807D2 /* FootballMatchController.swift */; };
+		2800D67B2656C37D00B807D2 /* DummyFootBallMatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D67A2656C37D00B807D2 /* DummyFootBallMatchService.swift */; };
+		2800D6812656C3D300B807D2 /* FootballMatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800D6802656C3D300B807D2 /* FootballMatchService.swift */; };
+		38F21DC912AAD503F130568D /* Pods_runloop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991E3FF92AABE9B92D97C0D3 /* Pods_runloop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6F056D7C98CAC897665E10 /* Pods-runloop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runloop.debug.xcconfig"; path = "Target Support Files/Pods-runloop/Pods-runloop.debug.xcconfig"; sourceTree = "<group>"; };
 		2800D6402656AC3300B807D2 /* runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2800D6432656AC3300B807D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2800D6452656AC3300B807D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		2800D64C2656AC3400B807D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2800D64F2656AC3400B807D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2800D6512656AC3400B807D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2800D6672656B98300B807D2 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		2800D66A2656BA5700B807D2 /* FootballMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballMatch.swift; sourceTree = "<group>"; };
+		2800D66D2656BAE900B807D2 /* FootballMatchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballMatchApi.swift; sourceTree = "<group>"; };
+		2800D6722656BC0A00B807D2 /* DiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiConfig.swift; sourceTree = "<group>"; };
+		2800D6752656BFFB00B807D2 /* FootballMatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballMatchController.swift; sourceTree = "<group>"; };
+		2800D67A2656C37D00B807D2 /* DummyFootBallMatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyFootBallMatchService.swift; sourceTree = "<group>"; };
+		2800D6802656C3D300B807D2 /* FootballMatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballMatchService.swift; sourceTree = "<group>"; };
+		991E3FF92AABE9B92D97C0D3 /* Pods_runloop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_runloop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EFDE03F7D500365586F650 /* Pods-runloop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-runloop.release.xcconfig"; path = "Target Support Files/Pods-runloop/Pods-runloop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F21DC912AAD503F130568D /* Pods_runloop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				2800D6422656AC3300B807D2 /* runloop */,
 				2800D6412656AC3300B807D2 /* Products */,
+				589F2997F894DD82913450DD /* Pods */,
+				AE0D1DF08829B76D121A3EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,103 @@
 		2800D6422656AC3300B807D2 /* runloop */ = {
 			isa = PBXGroup;
 			children = (
-				2800D6432656AC3300B807D2 /* AppDelegate.swift */,
-				2800D6452656AC3300B807D2 /* SceneDelegate.swift */,
-				2800D6472656AC3300B807D2 /* ViewController.swift */,
-				2800D6492656AC3300B807D2 /* Main.storyboard */,
-				2800D64C2656AC3400B807D2 /* Assets.xcassets */,
-				2800D64E2656AC3400B807D2 /* LaunchScreen.storyboard */,
+				2800D688265944EB00B807D2 /* MVC */,
+				2800D6862659449E00B807D2 /* Assist */,
 				2800D6512656AC3400B807D2 /* Info.plist */,
+				2800D6652656B77700B807D2 /* StartConfiguration */,
+				2800D6492656AC3300B807D2 /* Main.storyboard */,
 			);
 			path = runloop;
+			sourceTree = "<group>";
+		};
+		2800D6632656B75A00B807D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2800D67E2656C3A500B807D2 /* Protocols */,
+				2800D6792656C36200B807D2 /* Services */,
+				2800D66D2656BAE900B807D2 /* FootballMatchApi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2800D6642656B76900B807D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2800D66A2656BA5700B807D2 /* FootballMatch.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2800D6652656B77700B807D2 /* StartConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				2800D6432656AC3300B807D2 /* AppDelegate.swift */,
+				2800D6452656AC3300B807D2 /* SceneDelegate.swift */,
+				2800D64C2656AC3400B807D2 /* Assets.xcassets */,
+				2800D64E2656AC3400B807D2 /* LaunchScreen.storyboard */,
+			);
+			path = StartConfiguration;
+			sourceTree = "<group>";
+		};
+		2800D6792656C36200B807D2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2800D67A2656C37D00B807D2 /* DummyFootBallMatchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2800D67E2656C3A500B807D2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2800D6802656C3D300B807D2 /* FootballMatchService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2800D6862659449E00B807D2 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				2800D6672656B98300B807D2 /* CommonUtils.swift */,
+				2800D6722656BC0A00B807D2 /* DiConfig.swift */,
+			);
+			path = Assist;
+			sourceTree = "<group>";
+		};
+		2800D687265944BE00B807D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2800D6472656AC3300B807D2 /* ViewController.swift */,
+				2800D6752656BFFB00B807D2 /* FootballMatchController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2800D688265944EB00B807D2 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				2800D687265944BE00B807D2 /* Controllers */,
+				2800D6642656B76900B807D2 /* View */,
+				2800D6632656B75A00B807D2 /* Model */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		589F2997F894DD82913450DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F056D7C98CAC897665E10 /* Pods-runloop.debug.xcconfig */,
+				E8EFDE03F7D500365586F650 /* Pods-runloop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE0D1DF08829B76D121A3EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				991E3FF92AABE9B92D97C0D3 /* Pods_runloop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2800D6542656AC3400B807D2 /* Build configuration list for PBXNativeTarget "runloop" */;
 			buildPhases = (
+				9A26743867A3CBAE54E9EFBB /* [CP] Check Pods Manifest.lock */,
+				2800D65D2656AD0B00B807D2 /* ShellScript */,
 				2800D63C2656AC3300B807D2 /* Sources */,
 				2800D63D2656AC3300B807D2 /* Frameworks */,
 				2800D63E2656AC3300B807D2 /* Resources */,
+				66499369A4ACB4C02489CDD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +244,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2800D65D2656AD0B00B807D2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		66499369A4ACB4C02489CDD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-runloop/Pods-runloop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-runloop/Pods-runloop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-runloop/Pods-runloop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A26743867A3CBAE54E9EFBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-runloop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2800D63C2656AC3300B807D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2800D6482656AC3300B807D2 /* ViewController.swift in Sources */,
+				2800D6732656BC0B00B807D2 /* DiConfig.swift in Sources */,
+				2800D6762656BFFB00B807D2 /* FootballMatchController.swift in Sources */,
 				2800D6442656AC3300B807D2 /* AppDelegate.swift in Sources */,
+				2800D66E2656BAE900B807D2 /* FootballMatchApi.swift in Sources */,
+				2800D6682656B98300B807D2 /* CommonUtils.swift in Sources */,
+				2800D6812656C3D300B807D2 /* FootballMatchService.swift in Sources */,
+				2800D67B2656C37D00B807D2 /* DummyFootBallMatchService.swift in Sources */,
+				2800D66B2656BA5700B807D2 /* FootballMatch.swift in Sources */,
 				2800D6462656AC3300B807D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +461,7 @@
 		};
 		2800D6552656AC3400B807D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6F056D7C98CAC897665E10 /* Pods-runloop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +481,7 @@
 		};
 		2800D6562656AC3400B807D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EFDE03F7D500365586F650 /* Pods-runloop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
