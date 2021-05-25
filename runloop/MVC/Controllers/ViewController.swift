@@ -49,11 +49,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController {
     
     func showFootballMatchDetails(match: FootballMatch) {
-        guard let footBallMatchViewController = self.storyboard!.instantiateViewController(withIdentifier: "FootballMatchController") as? FootballMatchController else {return}
+        guard let footBallMatchViewController = self.storyboard?.instantiateViewController(withIdentifier: "FootballMatchController") as? FootballMatchController else {return}
         footBallMatchViewController.footBallMatch = match
         timerObservers["FootballMatchController"] = footBallMatchViewController.getObserver()
         self.present(footBallMatchViewController, animated: true, completion: nil)
     }
+}
+//
+// MARK: - UITableViewDelegate Actions
+//
+extension ViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         showFootballMatchDetails(match: (footballMatches?[indexPath.row])!)
@@ -80,16 +85,16 @@ extension ViewController {
     }
     
     private func createTimer() {
-    if timer == nil {
-        timer = DispatchSource.makeTimerSource(queue: .main)
-        timer?.schedule(deadline: .now(), repeating: 1.0)
-        timer?.setEventHandler { [weak self] in
-            if let unwrapped = self {
-                for observerFunc in unwrapped.timerObservers.values {
-                    observerFunc()
+        if timer == nil {
+            timer = DispatchSource.makeTimerSource(queue: .main)
+            timer?.schedule(deadline: .now(), repeating: 1.0)
+            timer?.setEventHandler { [weak self] in
+                if let unwrapped = self {
+                    for observerFunc in unwrapped.timerObservers.values {
+                        observerFunc()
+                    }
                 }
             }
-          }
         }
     }
 }
